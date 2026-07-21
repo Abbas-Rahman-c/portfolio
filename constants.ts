@@ -59,18 +59,16 @@ export const PROJECTS: IProject[] = [
     name: "Locus AI",
     image: "/projects/locus-ai.jpg",
     blurImage: BLUR,
-    description:
-      "AI-powered decision tracker for teams. It ingests Slack, Notion, and Gmail in real time, uses Claude to triage and extract key decisions, and answers questions with cited, grounded responses via a RAG pipeline. As Backend Lead, I own ingestion, the AI processing pipeline, auth, multi-tenant security, and the MCP server integration.",
+    description: "AI-powered decision tracker for teams, built as Backend Lead.",
     gradient: ["#1B2A5E", "#0F1B3D"],
     url: "https://github.com/Abbas-Rahman-c",
-    tech: ["python", "fastapi", "supabase", "postgresql", "anthropic", "deno"],
+    tech: ["python", "fastapi", "supabase", "anthropic"],
   },
   {
     name: "Career Research Agent",
     image: "/projects/career-research-agent.jpg",
     blurImage: BLUR,
-    description:
-      "AI agent that answers career questions for engineers through multi-step reasoning. It decomposes questions, retrieves from a knowledge base, and synthesizes cited answers on salaries, skills, resumes, and interview prep. Built for the Microsoft Agents League Hackathon 2026.",
+    description: "Multi-step reasoning agent answering career questions with cited sources.",
     gradient: ["#153BB9", "#0E2C8B"],
     url: "https://github.com/Abbas-Rahman-c/research-agent",
     tech: ["groq", "azure", "fastapi", "streamlit"],
@@ -79,18 +77,16 @@ export const PROJECTS: IProject[] = [
     name: "Full-Stack RAG Chatbot",
     image: "/projects/agentic-chatbot.jpg",
     blurImage: BLUR,
-    description:
-      "Self-contained AI chatbot that runs entirely offline, with RAG over uploaded PDFs and chat memory, powered by Ollama (Llama 3.2) for complete data privacy at zero API cost. FastAPI + LangChain + FAISS backend, React/Vite frontend.",
+    description: "Offline RAG chatbot over PDFs, powered by local Llama 3.2 via Ollama.",
     gradient: ["#245B57", "#004741"],
     url: "https://github.com/Abbas-Rahman-c/local-llm-chatbot",
-    tech: ["fastapi", "react", "langchain", "faiss", "ollama"],
+    tech: ["fastapi", "react", "langchain", "faiss"],
   },
   {
     name: "InsightCV",
     image: "/projects/insightcv.jpg",
     blurImage: BLUR,
-    description:
-      "AI-powered resume analyzer built with Google AI Studio and the Gemini API. Upload a PDF resume and get instant, structured feedback with scoring and improvement recommendations. Built for the Google Cloud AI Seekho Hackathon 2026.",
+    description: "AI resume analyzer with instant, structured feedback via the Gemini API.",
     gradient: ["#5E4C06", "#746528"],
     url: "https://ai.studio/apps/840fda21-2c76-44c5-98b8-8d7d9c0056ba",
     tech: ["googlegemini", "nodedotjs"],
@@ -99,8 +95,7 @@ export const PROJECTS: IProject[] = [
     name: "Induction Motor Fault Detection",
     image: "/projects/motor-fault-detection.jpg",
     blurImage: BLUR,
-    description:
-      "CNN-based deep learning system that classifies induction motor health from vibration and current signal data to support predictive maintenance, bridging my Electrical Engineering coursework with applied deep learning.",
+    description: "CNN model classifying motor health from vibration and current signals.",
     gradient: ["#003052", "#167187"],
     url: "https://github.com/Abbas-Rahman-c/Induction-Motor-Fault-Detection-Using-CNN",
     tech: ["tensorflow", "python", "numpy"],
@@ -109,8 +104,7 @@ export const PROJECTS: IProject[] = [
     name: "Speech Emotion Recognition",
     image: "/projects/speech-emotion.jpg",
     blurImage: BLUR,
-    description:
-      "CNN-LSTM model classifying 6 emotions from raw audio using MFCC, chroma, and spectral contrast features. Full preprocessing-to-evaluation pipeline achieving competitive accuracy on RAVDESS.",
+    description: "CNN-LSTM model classifying 6 emotions from raw audio, tested on RAVDESS.",
     gradient: ["#17007B", "#3A2C79"],
     url: "https://github.com/Abbas-Rahman-c",
     tech: ["tensorflow", "python"],
