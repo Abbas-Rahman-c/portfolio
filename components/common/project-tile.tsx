@@ -40,7 +40,7 @@ const ProjectTile = ({
   const renderTechIcons = (techStack: string[]): React.ReactNode => (
     <div
       className={`
-      ${styles.techIcons} w-1/2 h-full absolute left-24 top-0 sm:flex items-center hidden
+      ${styles.techIcons} w-1/2 h-full absolute left-24 top-0 pt-20 sm:flex items-start hidden
     `}
     >
       <div className="flex flex-col pb-8">
