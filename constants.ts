@@ -63,7 +63,7 @@ export const PROJECTS: IProject[] = [
       "AI-powered decision tracker for teams. Ingests Slack, Notion, and Gmail in real time, uses Claude to triage and extract key decisions, and answers questions with cited, grounded responses via a RAG pipeline. As Backend Lead, I own ingestion, the AI pipeline, auth, and multi-tenant security.",
     gradient: ["#1B2A5E", "#0F1B3D"],
     url: "https://github.com/Abbas-Rahman-c",
-    tech: ["python", "fastapi", "supabase", "anthropic"],
+    tech: ["python", "fastapi", "supabase"],
   },
   {
     name: "Career Research Agent",
@@ -73,7 +73,7 @@ export const PROJECTS: IProject[] = [
       "AI agent that answers career questions for engineers through multi-step reasoning. Decomposes questions, retrieves from a knowledge base, and synthesizes cited answers on salaries, skills, resumes, and interview prep. Built for the Microsoft Agents League Hackathon 2026.",
     gradient: ["#153BB9", "#0E2C8B"],
     url: "https://github.com/Abbas-Rahman-c/research-agent",
-    tech: ["groq", "azure", "fastapi", "streamlit"],
+    tech: ["groq", "azure", "fastapi"],
   },
   {
     name: "Full-Stack RAG Chatbot",
@@ -83,7 +83,7 @@ export const PROJECTS: IProject[] = [
       "Self-contained AI chatbot that runs entirely offline, with RAG over uploaded PDFs and chat memory, powered by Ollama (Llama 3.2) for complete data privacy at zero API cost. FastAPI, LangChain, and FAISS backend, React/Vite frontend.",
     gradient: ["#245B57", "#004741"],
     url: "https://github.com/Abbas-Rahman-c/local-llm-chatbot",
-    tech: ["fastapi", "react", "langchain", "faiss"],
+    tech: ["fastapi", "react", "langchain"],
   },
   {
     name: "InsightCV",
