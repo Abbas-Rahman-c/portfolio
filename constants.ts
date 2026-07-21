@@ -60,7 +60,7 @@ export const PROJECTS: IProject[] = [
     image: "/projects/locus-ai.jpg",
     blurImage: BLUR,
     description:
-      "AI-powered decision tracker for teams. Ingests Slack, Notion, and Gmail in real time, uses Claude to triage and extract key decisions, and answers questions with cited, grounded responses via a RAG pipeline. As Backend Lead, I own ingestion, the AI pipeline, auth, and multi-tenant security.",
+      "AI-powered decision tracker for teams, built as Backend Lead. Ingests Slack, Notion, and Gmail in real time through Supabase Edge Functions, then runs every event through a Claude Haiku pipeline that triages and extracts structured decisions. Embeddings are generated with Voyage AI and indexed in pgvector for retrieval. I own ingestion, the AI pipeline, auth, multi-tenant security, and the MCP server.",
     gradient: ["#1B2A5E", "#0F1B3D"],
     url: "https://github.com/Abbas-Rahman-c",
     tech: ["python", "fastapi", "supabase"],
@@ -70,7 +70,7 @@ export const PROJECTS: IProject[] = [
     image: "/projects/career-research-agent.jpg",
     blurImage: BLUR,
     description:
-      "AI agent that answers career questions for engineers through multi-step reasoning. Decomposes questions, retrieves from a knowledge base, and synthesizes cited answers on salaries, skills, resumes, and interview prep. Built for the Microsoft Agents League Hackathon 2026.",
+      "Autonomous agent that answers career questions for engineers through multi-step reasoning: decompose the question, retrieve from a knowledge base, then synthesize a cited answer. Built on Groq's LLaMA 3.3 70B, Azure AI Search, a FastAPI backend, and a Streamlit interface. Covers salary ranges, in-demand skills, resume writing, and interview prep. Built end to end in a 9-day sprint for the Microsoft Agents League Hackathon 2026.",
     gradient: ["#153BB9", "#0E2C8B"],
     url: "https://github.com/Abbas-Rahman-c/research-agent",
     tech: ["groq", "azure", "fastapi"],
@@ -80,7 +80,7 @@ export const PROJECTS: IProject[] = [
     image: "/projects/agentic-chatbot.jpg",
     blurImage: BLUR,
     description:
-      "Self-contained AI chatbot that runs entirely offline, with RAG over uploaded PDFs and chat memory, powered by Ollama (Llama 3.2) for complete data privacy at zero API cost. FastAPI, LangChain, and FAISS backend, React/Vite frontend.",
+      "Self-contained AI chatbot that runs entirely offline, with zero API cost and zero data leaving the machine. Uploaded PDFs are chunked, embedded, and indexed in FAISS, then retrieved and passed to a locally running Llama 3.2 model via Ollama for generation, with full conversation memory across turns. Backend built with FastAPI and LangChain, frontend built with React, Vite, and Tailwind CSS.",
     gradient: ["#245B57", "#004741"],
     url: "https://github.com/Abbas-Rahman-c/local-llm-chatbot",
     tech: ["fastapi", "react", "langchain"],
@@ -90,7 +90,7 @@ export const PROJECTS: IProject[] = [
     image: "/projects/insightcv.jpg",
     blurImage: BLUR,
     description:
-      "AI-powered resume analyzer built with Google AI Studio and the Gemini API. Upload a PDF resume and get instant, structured feedback with scoring and improvement recommendations. Built for the Google Cloud AI Seekho Hackathon 2026.",
+      "AI-powered resume analyzer built with Google AI Studio and the Gemini API for the Google Cloud AI Seekho Hackathon 2026. Upload a PDF resume and get instant, structured feedback across multiple scoring dimensions, along with concrete improvement recommendations generated through multi-step prompt chaining. Deployed as a live, publicly usable app.",
     gradient: ["#5E4C06", "#746528"],
     url: "https://ai.studio/apps/840fda21-2c76-44c5-98b8-8d7d9c0056ba",
     tech: ["googlegemini", "nodedotjs"],
@@ -100,7 +100,7 @@ export const PROJECTS: IProject[] = [
     image: "/projects/motor-fault-detection.jpg",
     blurImage: BLUR,
     description:
-      "CNN-based deep learning system that classifies induction motor health from vibration and current signal data to support predictive maintenance. Bridges my Electrical Engineering coursework with applied deep learning.",
+      "CNN-based deep learning system that classifies induction motor health from vibration and current signal data, bridging my Electrical Engineering coursework with applied deep learning. The pipeline covers signal preprocessing, CNN training on labeled fault data, and evaluation using accuracy, loss curves, and confusion matrices to support predictive maintenance.",
     gradient: ["#003052", "#167187"],
     url: "https://github.com/Abbas-Rahman-c/Induction-Motor-Fault-Detection-Using-CNN",
     tech: ["tensorflow", "python", "numpy"],
@@ -110,7 +110,7 @@ export const PROJECTS: IProject[] = [
     image: "/projects/speech-emotion.jpg",
     blurImage: BLUR,
     description:
-      "CNN-LSTM model classifying 6 emotions from raw audio using MFCC, chroma, and spectral contrast features. Full preprocessing-to-evaluation pipeline achieving competitive accuracy on RAVDESS.",
+      "CNN-LSTM model that classifies 6 emotions directly from raw audio, combining MFCC, chroma, and spectral contrast features to capture both the tonal and rhythmic character of speech. Built a full preprocessing-to-evaluation pipeline, including feature extraction and sequence modeling, achieving competitive accuracy on the RAVDESS benchmark.",
     gradient: ["#17007B", "#3A2C79"],
     url: "https://github.com/Abbas-Rahman-c",
     tech: ["tensorflow", "python"],
