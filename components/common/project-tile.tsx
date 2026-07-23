@@ -125,7 +125,7 @@ const ProjectTile = ({
         ref={projectCard}
         className={`
           ${styles.ProjectTile}
-           rounded-3xl relative p-6 flex-col flex justify-between max-w-full
+           rounded-3xl relative p-6 flex-col flex justify-between
         `}
         style={{
           background: `linear-gradient(90deg, ${stop1} 0%, ${stop2} 100%)`,
