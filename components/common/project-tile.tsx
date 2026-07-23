@@ -40,7 +40,7 @@ const ProjectTile = ({
   const renderTechIcons = (techStack: string[]): React.ReactNode => (
     <div
       className={`
-      ${styles.techIcons} absolute left-8 top-20 sm:flex items-center hidden
+      ${styles.techIcons} absolute left-8 top-20 flex items-center
     `}
     >
       {techStack.map((tech) => (
